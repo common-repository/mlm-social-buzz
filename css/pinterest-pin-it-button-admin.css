@@ -1,0 +1,156 @@
+/* Pinterest "Pin It" Button Admin CSS */
+
+.form-table {
+    margin-bottom: 10px !important; 
+}
+
+.form-table td {
+    padding: 1px 10px;
+}
+
+.form-table label {
+    padding-left: 3px;
+}
+.form-table input[type="checkbox"] {
+    margin-right: 5px;
+	width: auto;
+}
+
+.form-table textarea {
+    line-height: 1.3em;
+    width: 350px;
+}
+
+.pib-postbox {
+    margin: 10px 10px 0 0;
+}
+
+.pib-settings { 
+	width: 70%;
+}
+
+.pib-right-column {
+    width: 30%;
+}
+
+.postbox .pib-hndle {
+	cursor:pointer;
+}
+
+#pib-custom-css {
+    width: 100%;
+}
+
+.pib-full-width-textbox { 
+    width: 100%;
+}
+
+td.pib-pad-cell-top {
+	padding-top: 7px;
+}
+
+label.pib-plain-label {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* BEGIN Mailchimp Embedded Form CSS */
+
+#email-signup {
+    /* background-color: #464646; */
+    background-color: #999;
+    background-image: none;
+    border: 0;
+    /* color: #ccc; */
+    color: #fff;
+    margin: 10px 10px 0 0;
+    padding: 5px 20px;
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+}
+
+#email-signup h4 {
+    color: #FCF9F9;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#email-signup .large-text {
+    font-size: 15px;
+}
+
+/* Mailchimp original embed CSS at http://cdn-images.mailchimp.com/embedcode/slim-081711.css */
+/* This is the same with some elements removed and some modified */
+#mc_embed_signup form {display:block; position:relative; text-align:left; font: 14px Helvetica,Arial,sans-serif; padding:0}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}     
+#mc_embed_signup .clear {clear:none; display:inline;}
+#mc_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px;}
+
+/* END Mailchimp Embedded Form CSS */
+
+/* BEGIN Super Conversion Button CSS
+
+Conversion buttons made simple: 
+http://www.performable.com/buttons/ 
+
+Awesome Button
+
+This is a well-enhanced version of the awesome buttons found here:
+http://www.zurb.com/article/266/super-awesome-buttons-with-css3-and-rgba
+
+Awesome/Red: http://super.hubspot.com/buttons/code/N5XJeFJeRmnC/5L4hyT/
+
+================================================================================ */
+
+.awesome,
+.awesome-link,
+.awesome:visited {
+  font-family:"helvetica neue",arial,sans-serif !important;
+  /* font-family:"lucida grande","lucida sans unicode",arial,sans-serif !important; */  
+  font-weight:bold !important;
+  font-size:18px !important;
+  /* font-size:20px !important; */
+  line-height:1 !important;
+  background: #222 url(button-shadow.png) repeat-x;
+  _background: #222 none;
+  display: inline-block;
+  color: #fff !important;
+  text-decoration: none !important;
+  margin:0 !important;
+  padding:.6em 1.3em .6em !important;
+  *padding:.7em 1.4em 1em !important;
+  -moz-border-radius: .4em !important;
+  -webkit-border-radius: .4em !important;
+  border-radius: 5px !important;
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.75) !important;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.75) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.75) !important;
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.3) !important;
+  border: none !important;
+  position: relative !important;
+  cursor: pointer !important;
+  width: auto !important;
+  overflow: visible !important;
+  vertical-align:baseline !important;
+  *vertical-align:middle !important;
+}
+
+.awesome:hover {
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.75) !important;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.75) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.75) !important;
+}
+
+a.awesome:active {
+  top: 1px !important;
+}
+   
+.red.awesome,.red.awesome:visited{background-color:#CC1100 !important;}
+.red.awesome:hover{background-color:#991100 !important;}
+
+/* END Super Conversion Button CSS */
